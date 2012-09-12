@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+	<!-- Cabecera -->
+	<head>
+		<!-- Titulo -->
+		<title>G-Video</title>
+		<meta charset="UTF-8"/>
+	</head>
+
+	<!-- Cuerpo -->
+	<body>
+		<h1>G-Video</h1>
+		
+		<form>
+			<input type="text"/>
+		</form>
+		<nav>
+			<ul>
+				<li><a href="login.html">Iniciar sesion</a></li>
+			</ul>		
+		</nav>
+		<section id="destacado">
+			<article>
+				<h3>Titulo video 1</h3>
+				<img src="smile.png" alt="preview video" width="100px" height="100px"/>
+			</article>
+			<article>
+				<h3>Titulo video 2</h3>
+				<img src="smile.png" alt="preview video" width="100px" height="100px"/>
+			</article>
+			<article>
+				<h3>Titulo video 3</h3>
+				<img src="smile.png" alt="preview video" width="100px" height="100px"/>
+			</article>
+
+		</section>
+		<div>
+			<p>Para subir videos y para disfrutar de nuestro portal llene este formulario</p>
+			<h2>Registrate</h2>
+			<form action="registrar.php" method="POST">
+				<label for="nombre">Ingresa tu nombre</label><input type="text" name="nombre"/><br/>
+				<label for="email"/>Ingresa tu email</label><input type="email" name="email"/><br/>
+				<label for="password">Ingresa una contraseña</label><input type="password" name="password">
+				<input type="submit"/>				
+			</form>
+		</div>
+	</body>
+</html>
