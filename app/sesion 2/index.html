@@ -5,44 +5,46 @@
 		<!-- Titulo -->
 		<title>G-Video</title>
 		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css"href="css/estilos.css">
 	</head>
 
 	<!-- Cuerpo -->
 	<body>
+		<div id="contenedor_general">
 		<h1 id="logo"><a href="index.html">G-Video</a></h1>
 		
-		<form>
+		<form id="busqueda">
 			<input type="text"/>
 		</form>
-		<nav>
+		<nav id="menu">
 			<ul>
 				<li><a href="login.html">Iniciar sesion</a></li>
 			</ul>		
 		</nav>
+		<div class="clearfix"></div>
 		<section id="destacado">
 			<article>
-				<h3>Titulo video 1</h3>
-				<img src="smile.png" alt="preview video" width="100px" height="100px"/>
+				<h3>Neal Morse - Mercy Street</h3>
+				<img src="img/bigthumbs/bigthumb1.png" alt="preview video" width="480px" height="263px"/>
 			</article>
 			<article>
-				<h3>Titulo video 2</h3>
-				<img src="smile.png" alt="preview video" width="100px" height="100px"/>
+				<h3>Paul Jacksonr Jr. - It's a shame</h3>
+				<img src="img/bigthumbs/bigthumb2.png" alt="preview video" width="480px" height="263px"/>
 			</article>
-			<article>
-				<h3>Titulo video 3</h3>
-				<img src="smile.png" alt="preview video" width="100px" height="100px"/>
-			</article>
+			
 
 		</section>
-		<div>
+		<div id="registro">
+			<h2>Unete a <span class="gvid">G-Video</span></h2>
 			<p>Para subir videos y para disfrutar de nuestro portal llene este formulario</p>
-			<h2>Registrate</h2>
+			
 			<form action="registrar.php" method="POST">
 				<label for="nombre">Ingresa tu nombre</label><input type="text" name="nombre"/><br/>
 				<label for="email">Ingresa tu email</label><input type="email" name="email"/><br/>
 				<label for="password">Ingresa una contraseña</label><input type="password" name="password">
 				<input type="submit"/>				
 			</form>
+		</div>
 		</div>
 	</body>
 </html>

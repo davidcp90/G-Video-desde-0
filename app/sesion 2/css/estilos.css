@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+/*font-family: 'Oswald', sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+/*font-family: 'Dosis', sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+/*font-family: 'Oxygen', sans-serif;*/
+*{
+	margin:0;
+	padding:0;
+
+}
+body{
+	background:rgb(232,232,232);
+	font-family: 'Oxygen', sans-serif;
+	color:#333;
+	font-size:12px;
+		
+}
+h1#logo a{
+	position:relative;
+	padding-left:70px;
+	font-family: 'Oswald', sans-serif;
+	font-size:40px;
+	width:180px;
+	height:64px;
+	color:#111;
+	text-decoration:none;
+	background:url('../img/play.png') no-repeat left center;
+	float:left;
+	display:inline-block;
+	
+}
+form#busqueda,nav#menu,section#destacado,div#registro{
+	float:left;
+	position:relative;
+	display:inline;
+}
+form#busqueda input[type="text"] {
+	font-size:18px;
+	width:280px;
+	height:30px;
+	top:15px;
+	position:relative;
+	
+}
+nav#menu ul{
+	list-style-type:none;
+	margin-left:40px;
+	position:relative;
+	top:20px;
+}
+nav#menu ul li{
+	display:inline;
+	padding:8px;
+	 background:rgb(232,232,232);
+	transition: background  0.9s ease-in-out;
+-moz-transition: background  0.9s ease-in-out;
+-webkit-transition: background 0.9s ease-in-out;
+-o-transition: background 0.9s ease-in-out;
+color:#222;
+}
+nav#menu ul li a{
+	font-family: 'Dosis', sans-serif;
+	font-size:14px;
+	color:#222;
+	text-decoration:none;
+		
+}
+nav#menu ul li:hover,nav#menu ul li a:hover{
+ background:rgb(24,70,116);
+ color:#fff;
+ border-radius:7px;
+ 
+}
+section#destacado h3 {
+	font-family: 'Dosis', sans-serif;
+	font-size:38px;
+	margin-bottom:15px;
+}
+section#destacado article{
+	padding:30px;
+	border-bottom:#222222 dotted 1px;
+}
+div#registro{
+	margin-left:20px;
+	border-radius:15px;
+	padding:20px;
+	background:#1c7850;
+	color:#eee;
+	width:300px;
+	margin-top:40px;
+}
+div#registro:hover{
+background:#5f1c78;
+transition: background  1.9s ease-in-out;
+-moz-transition: background  1.9s ease-in-out;
+-webkit-transition: background 1.9s ease-in-out;
+-o-transition: background 1.9s ease-in-out;
+}
+div#registro h2{
+	font-size:24px;
+}
+div#registro p{
+	margin:8px 0 8px 0;
+	font-size:20px;
+}
+div#registro label{
+	width:150px;
+	font-size:14px;
+	clear:both;
+	display:block;
+}
+div#registro input{
+	width:150px;
+	font-size:14px;
+	clear:both;
+	margin:4px 0 8px 0;
+	display:block;
+}
+div#registro input[type="submit"]{
+	border-radius:8px;
+	background:rgb(87,156,185);
+	color:#eee;
+	border:0;
+	padding:5px;
+}
+.gvid{
+	font-family: 'Oswald', sans-serif;
+	font-size:24px;
+}
+.clearfix{
+	clear:both;
+}
+#contenedor_general{
+	width:960px;
+	margin: 20px auto;
+}
