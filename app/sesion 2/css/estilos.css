@@ -28,8 +28,9 @@ h1#logo a{
 	background:url('../img/play.png') no-repeat left center;
 	float:left;
 	display:inline-block;
-	transition: background 2.5s ease-in-out;
+transition: background 2.5s ease-in-out;
 -moz-transition: background 2.5s ease-in-out;
+-ms-transition: background 2.5s ease-in-out;
 -webkit-transition: background 2.5s ease-in-out;
 -o-transition: background 2.5s ease-in-out;	
 	
